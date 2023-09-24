@@ -9,9 +9,11 @@ sobreescribir toString() para estas clases. Tenemos que controlar que el saldo d
 class Cuenta(var numeroCuenta: String, var saldo: Double, var propietario:Persona) {
 
     init {
-        while(saldo<0){
+        if(saldo<0){
+            println()
             println("El saldo minimo debe ser 0")
-            println("Por favor, mete dinero en tu cuenta")
+            println("Por favor, ${propietario.nombre} ${propietario.apellido} mete dinero en tu cuenta")
+            println()
         }
     }
     constructor() : this("",0.0,Persona("","",""))

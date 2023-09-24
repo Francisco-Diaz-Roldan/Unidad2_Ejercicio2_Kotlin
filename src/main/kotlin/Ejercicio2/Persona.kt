@@ -5,13 +5,15 @@ package Ejercicio2
 • teléfono (controlar que el teléfono solo acepte 9 dígitos)*/
 class Persona(var nombre:String, var apellido:String, var telefono:String) {
     init {
-        while(telefono.length!=9){
-            println("El telefono debe tener 9 digitos")
-            println("Por favor, introduce un telefono valido")
+        if(telefono.length!=9){
+            println()
+            println("El telefono de $nombre $apellido debe tener 9 digitos")
+            println("Por favor, $nombre $apellido, introduce un telefono valido")
+            println()
         }
     }
 
     override fun toString():String{
-        return "Nombre: $nombre, Apellido: $apellido, Telefono: $telefono"
+        return "$nombre $apellido, Telefono: $telefono"
     }
 }
