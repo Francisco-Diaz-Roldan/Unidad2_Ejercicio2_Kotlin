@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7247bdaf-6d02-4e2a-9d80-b227d7ff2943" name="Changes" comment="Ejercicio 1 a) y b) hechos&#10;Ejercicio 2 fallan los getters y setters de Cuenta">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Ejercicio2/Cuenta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Ejercicio2/Cuenta.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Ejercicio2/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Ejercicio2/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Ejercicio2/Persona.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Ejercicio2/Persona.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Ejercicio3/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Ejercicio3/ProdCongelados.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Ejercicio3/ProdFrescos.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Ejercicio3/ProdRefrigerados.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Ejercicio3/Productos.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,7 @@
       <list>
         <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -90,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695570022066</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ejercicio 1 a) y b) hechos&#10;Ejercicio 2 fallan los getters y setters de Cuenta">
+      <option name="closed" value="true" />
+      <created>1695570590655</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695570590655</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
