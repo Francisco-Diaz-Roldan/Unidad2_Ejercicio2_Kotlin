@@ -8,6 +8,6 @@ class Humano (var nombre: String,  edad:Byte) :SerVivo(edad){
     }
 
     override fun toString(): String {
-        return "Nombre:  $nombre, ${super.toString()}"
+        return "nombre: $nombre, ${super.toString()}"
     }
 }

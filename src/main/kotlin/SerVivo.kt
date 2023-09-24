@@ -30,7 +30,7 @@ mismo nombre.*/
         }
 
         override fun toString():String{
-            return "edad: , $edad"
+            return "edad: $edad"
         }
     }
 
