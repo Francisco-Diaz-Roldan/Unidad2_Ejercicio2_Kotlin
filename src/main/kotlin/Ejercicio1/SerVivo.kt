@@ -1,4 +1,4 @@
-
+package Ejercicio1
     /*Ejercicio 1
 a) Implementar las clases SerVivo y Humano en Kotlin.
 El método mayor DEBE DEVOLVER un objeto de la clase SerVivo.
@@ -21,7 +21,7 @@ mismo nombre.*/
            return this.edad.equals(otro.edad)
         }
 
-        open fun mayor(otro : SerVivo) : SerVivo{
+        open fun mayor(otro : SerVivo) : SerVivo {
             return if(this.edad>=otro.edad){
                 this
             }else{

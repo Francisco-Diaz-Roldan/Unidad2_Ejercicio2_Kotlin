@@ -1,4 +1,4 @@
-/*b) En un archivo Main.kt, crear una función main() que cumpla con las
+package Ejercicio1/*b) En un archivo Main.kt, crear una función main() que cumpla con las
 siguientes instrucciones:
 • Declarar DOS objetos de la clase SerVivo:
 • Objeto X tiene 3 años
@@ -12,7 +12,7 @@ VARIABLES DECLARADAS PREVIAMENTE. Los objetos son:
 • Usando el resultado devuelto por el método mayor() DEBERÁ imprimir
 el mayor Humano de los creados anteriormente.*/
 
-fun main(args: Array<String>) {
+fun main() {
     var x = SerVivo(3)
     var y = SerVivo(5)
 
