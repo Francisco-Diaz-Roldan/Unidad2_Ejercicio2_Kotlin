@@ -1,6 +1,6 @@
 package Ejercicio3
 
-class ProdCongelados(tempetaturaCongelacion:Double, fechaCad: String, numLote:String) : Productos(fechaCad, numLote) {
+class ProdCongelados(tempetaturaCongelacion:Double, fechaCad: String, numLote:String) : Producto(fechaCad, numLote) {
 
     //Hago el getter y el setter de tempetaturaCongelacion
     var tempetaturaCongelacion: Double = 0.0

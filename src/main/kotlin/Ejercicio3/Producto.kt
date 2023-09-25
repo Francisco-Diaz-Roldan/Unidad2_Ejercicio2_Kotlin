@@ -12,19 +12,20 @@ Cada clase debe disponer de constructor(es) y permitir establecer (set) y recupe
 tener un método que permita mostrar la información del objeto.
 Crear un archivo Kotlin Main con el método main donde se cree un objeto de cada tipo y se muestren los datos de
 cada uno de los objetos creados.*/
-open class Productos( fechaCad: String, numLote:String) {
+open class Producto(fechaCad: String, numLote:String) {
 
 
     //Hago el getter y el setter de fechaCad
     open var fechaCad: String = ""
-        set(fechaCad){
+        set(fechaCad) {
             var field = fechaCad
+            field = fechaCad
         }
         get()= field
 
     //Hago el getter y el setter de numLote
     open var numLote: String = ""
-        set(numLote){
+        set(numLote) {
             var field = numLote
         }
         get()= field
