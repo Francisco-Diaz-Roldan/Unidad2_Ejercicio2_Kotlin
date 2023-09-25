@@ -4,6 +4,32 @@ package Ejercicio2
 • apellido
 • teléfono (controlar que el teléfono solo acepte 9 dígitos)*/
 class Persona(var nombre:String, var apellido:String, var telefono:String) {
+
+    /*
+    //Hago el getter y el setter de nombre
+    var nombre: String = ""
+        set(nombre){
+            nombre
+        }
+        get()= field
+
+
+    //Hago el getter y el setter de apellido
+    var apellido: String= ""
+        set(apellido){
+            apellido
+        }
+        get()= field
+
+
+    //Hago el getter y el setter de telefono
+    var telefono:String = ""
+        set(telefono) {
+            propietario
+        }
+        get()= field
+ */
+
     init {
         if(telefono.length!=9){
             println()
