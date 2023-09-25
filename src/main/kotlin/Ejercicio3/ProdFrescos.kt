@@ -1,7 +1,8 @@
 package Ejercicio3
 
-class ProdFrescos( fechaEnvasado:String, paisOrigen : String, fechaCad: String, numLote:String) : Producto(fechaCad, numLote) {
+class ProdFrescos(var fechaEnvasado:String, var paisOrigen : String, fechaCad: String, numLote:String) : Producto(fechaCad, numLote) {
 
+    /*
     //Hago el getter y el setter de fechaEnvasado
     var fechaEnvasado: String = ""
         set(fechaEnvasado){
@@ -15,10 +16,12 @@ class ProdFrescos( fechaEnvasado:String, paisOrigen : String, fechaCad: String, 
             var field = paisOrigen
         }
         get()= field
-
+*/
 
     override fun mostrarInfo(){
         println("Fecha de envasado: $fechaEnvasado")
         println("Pais de origen: $paisOrigen")
+        println("Fecha de caducidad: $fechaCad")
+        println("Numero de lote: $numLote")
     }
 }

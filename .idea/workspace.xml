@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7247bdaf-6d02-4e2a-9d80-b227d7ff2943" name="Changes" comment="Ejercicio 1 a) y b) hechos&#10;Ejercicio 2 fallan los getters y setters de Cuenta&#10;Ejercicio 3 repasar los getters y setters">
+    <list default="true" id="7247bdaf-6d02-4e2a-9d80-b227d7ff2943" name="Changes" comment="Ejercicio 1 a) y b) hechos&#10;Ejercicio 2 fallan los getters y setters de Cuenta&#10;Ejercicio 3 repasar los getters y setters&#10;Ya no me coge nada tras haberle puesto los getters y setters">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Ejercicio3/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Ejercicio3/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Ejercicio3/ProdCongelados.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Ejercicio3/ProdCongelados.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Ejercicio3/ProdFrescos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Ejercicio3/ProdFrescos.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Ejercicio3/ProdRefrigerados.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Ejercicio3/ProdRefrigerados.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Ejercicio3/Productos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Ejercicio3/Producto.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Ejercicio3/Producto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Ejercicio3/Producto.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695561549358</updated>
-      <workItem from="1695622358698" duration="4010000" />
+      <workItem from="1695622358698" duration="6388000" />
     </task>
     <task id="LOCAL-00001" summary="El ejercicio 2 de la unidad 2 de Android">
       <option name="closed" value="true" />
@@ -131,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695628804880</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Ejercicio 1 a) y b) hechos&#10;Ejercicio 2 fallan los getters y setters de Cuenta&#10;Ejercicio 3 repasar los getters y setters&#10;Ya no me coge nada tras haberle puesto los getters y setters">
+      <option name="closed" value="true" />
+      <created>1695629821146</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1695629821146</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +148,7 @@
     <MESSAGE value="Ejercicio 1 a) y b) hechos" />
     <MESSAGE value="Ejercicio 1 a) y b) hechos&#10;Ejercicio 2 fallan los getters y setters de Cuenta" />
     <MESSAGE value="Ejercicio 1 a) y b) hechos&#10;Ejercicio 2 fallan los getters y setters de Cuenta&#10;Ejercicio 3 repasar los getters y setters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 1 a) y b) hechos&#10;Ejercicio 2 fallan los getters y setters de Cuenta&#10;Ejercicio 3 repasar los getters y setters" />
+    <MESSAGE value="Ejercicio 1 a) y b) hechos&#10;Ejercicio 2 fallan los getters y setters de Cuenta&#10;Ejercicio 3 repasar los getters y setters&#10;Ya no me coge nada tras haberle puesto los getters y setters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 1 a) y b) hechos&#10;Ejercicio 2 fallan los getters y setters de Cuenta&#10;Ejercicio 3 repasar los getters y setters&#10;Ya no me coge nada tras haberle puesto los getters y setters" />
   </component>
 </project>

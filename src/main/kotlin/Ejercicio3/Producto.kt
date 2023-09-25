@@ -12,14 +12,12 @@ Cada clase debe disponer de constructor(es) y permitir establecer (set) y recupe
 tener un método que permita mostrar la información del objeto.
 Crear un archivo Kotlin Main con el método main donde se cree un objeto de cada tipo y se muestren los datos de
 cada uno de los objetos creados.*/
-open class Producto(fechaCad: String, numLote:String) {
-
-
+open class Producto(var fechaCad: String, var numLote:String) {
+    /*
     //Hago el getter y el setter de fechaCad
     open var fechaCad: String = ""
         set(fechaCad) {
             var field = fechaCad
-            field = fechaCad
         }
         get()= field
 
@@ -29,7 +27,7 @@ open class Producto(fechaCad: String, numLote:String) {
             var field = numLote
         }
         get()= field
-
+*/
 
     open fun mostrarInfo(){
         println("Fecha de caducidad: $fechaCad")
