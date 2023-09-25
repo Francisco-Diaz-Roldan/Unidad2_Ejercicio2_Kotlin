@@ -6,7 +6,8 @@ package Ejercicio2
 
 La clase Cuenta debe tener un constructor con parámetros y otro sin parámetros, métodos getter y setter y debes
 sobreescribir toString() para estas clases. Tenemos que controlar que el saldo de la cuenta no debe ser menor que 0.*/
-class Cuenta(var numeroCuenta: String, var saldo: Double, var propietario:Persona) {
+class Cuenta(numeroCuenta: String,  saldo: Double, propietario:Persona) {
+
 
     init {
         if(saldo<0){
@@ -18,29 +19,29 @@ class Cuenta(var numeroCuenta: String, var saldo: Double, var propietario:Person
     }
     constructor() : this("",0.0,Persona("","",""))
 
-    /*fun geNumCuenta(): String {
-        return this.numeroCuenta
-    }
+    //Hago el getter y el setter de numero de cuenta
+    var numeroCuenta: String = ""
+        set(numeroCuenta){
+            numeroCuenta
+        }
+        get()= field
 
-    fun getSaldo():Double{
-        return this.saldo
-    }
 
-    fun getPropietario():Persona{
-        return this.propietario
-    }
+    //Hago el getter y el setter de saldo
+    var saldo: Double = 0.0
+        set(saldo){
+            saldo
+        }
+        get()= field
 
-    fun setNumCuenta(numeroCuenta: String){
-        this.numeroCuenta=numeroCuenta
-    }
 
-    fun setSaldo(saldo: Double){
-        this.saldo=saldo
-    }
-
-    fun setPropietario(propietario: Persona) {
-         this.propietario=propietario
-    }*/
+    //Hago el getter y el setter de propietario
+    var propietario:Persona = Persona("","","")
+        set(propietario) {
+            propietario
+            field = propietario
+        }
+        get()= field
 
     override fun toString():String{
         return "Numero de cuenta: $numeroCuenta, Saldo: $saldo, Propietario: $propietario"

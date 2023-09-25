@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7247bdaf-6d02-4e2a-9d80-b227d7ff2943" name="Changes" comment="Ejercicio 1 a) y b) hechos&#10;Ejercicio 2 fallan los getters y setters de Cuenta">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Ejercicio3/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Ejercicio3/ProdCongelados.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Ejercicio3/ProdFrescos.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Ejercicio3/ProdRefrigerados.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Ejercicio3/Productos.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Ejercicio2/Cuenta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Ejercicio2/Cuenta.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Ejercicio3/ProdCongelados.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Ejercicio3/ProdCongelados.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Ejercicio3/Productos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Ejercicio3/Productos.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +28,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2VqRInGHhpIPIlrZWwqLUBQeeNb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -41,10 +41,16 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -60,6 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695561549358</updated>
+      <workItem from="1695622358698" duration="3361000" />
     </task>
     <task id="LOCAL-00001" summary="El ejercicio 2 de la unidad 2 de Android">
       <option name="closed" value="true" />
@@ -103,6 +110,9 @@
     </task>
     <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="El ejercicio 2 de la unidad 2 de Android" />
